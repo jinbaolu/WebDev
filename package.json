@@ -1,18 +1,24 @@
 {
-  "name": "vuepressBlog",
+  "name": "vuepressblog",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "vuepress dev docs",
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinbaolu/vuepressBlog.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "vuepress": "^0.14.4"
+  "bugs": {
+    "url": "https://github.com/jinbaolu/vuepressBlog/issues"
+  },
+  "homepage": "https://github.com/jinbaolu/vuepressBlog#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
   }
 }
