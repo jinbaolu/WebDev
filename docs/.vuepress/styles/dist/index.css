@@ -1,0 +1,81 @@
+.home {
+  max-width: none !important;
+  width: 100vw;
+  height: 100%;
+  position: relative;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #76daff;
+  overflow: hidden;
+}
+.home:before,
+.home:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  min-width: 300vw;
+  min-height: 300vw;
+  background-color: #fff;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.home:before {
+  bottom: 15vh;
+  border-radius: 45%;
+  animation-duration: 10s;
+}
+.home:after {
+  bottom: 12vh;
+  opacity: 0.5;
+  border-radius: 47%;
+  animation-duration: 10s;
+}
+.home .hero {
+  position: relative;
+  z-index: 10;
+}
+@-moz-keyframes rotate {
+  0% {
+    transform: translate(-50%, 0) rotateZ(0deg);
+  }
+  50% {
+    transform: translate(-50%, -2%) rotateZ(180deg);
+  }
+  100% {
+    transform: translate(-50%, 0%) rotateZ(360deg);
+  }
+}
+@-webkit-keyframes rotate {
+  0% {
+    transform: translate(-50%, 0) rotateZ(0deg);
+  }
+  50% {
+    transform: translate(-50%, -2%) rotateZ(180deg);
+  }
+  100% {
+    transform: translate(-50%, 0%) rotateZ(360deg);
+  }
+}
+@-o-keyframes rotate {
+  0% {
+    transform: translate(-50%, 0) rotateZ(0deg);
+  }
+  50% {
+    transform: translate(-50%, -2%) rotateZ(180deg);
+  }
+  100% {
+    transform: translate(-50%, 0%) rotateZ(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, 0) rotateZ(0deg);
+  }
+  50% {
+    transform: translate(-50%, -2%) rotateZ(180deg);
+  }
+  100% {
+    transform: translate(-50%, 0%) rotateZ(360deg);
+  }
+}
