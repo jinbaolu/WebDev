@@ -38,32 +38,113 @@ module.exports = {
       link: "/"
     }, {
       text: "Vue2",
-      link: "/vue/"
+      items: [{
+        text: "实用技巧",
+        link: "/vue/skills"
+      }, {
+        text: "必知原理",
+        link: "/vue/theory"
+      }]
     }, {
-      text: "配置记录",
-      link: "/config/"
+      text: "TypeScript",
+      items: [{
+        text: "基本类型",
+        link: "/ts/basetype"
+      }, {
+        text: "编译选项",
+        link: "/ts/compile"
+      }, {
+        text: "打包",
+        link: "/ts/build"
+      }, {
+        text: "面向对象",
+        link: "/ts/oop"
+      }, {
+        text: "接口",
+        link: "/ts/interface"
+      }, {
+        text: "范型",
+        link: "/ts/generic"
+      }]
+    }, {
+      text: "配置参考",
+      items: [{
+        text: "vue-router",
+        link: "/democonfig/vuerouter"
+      }, {
+        text: "axios",
+        link: "/democonfig/axios"
+      }, {
+        text: "webpack",
+        link: "/democonfig/webpack"
+      }, {
+        text: "vue-cli4",
+        link: "/democonfig/vuecli"
+      }, {
+        text: "rem",
+        link: "/democonfig/rem"
+      }, {
+        text: "代码格式化",
+        link: "/democonfig/format"
+      }]
     }, {
       text: "知识点",
-      link: "/knowledge/"
+      items: [{
+        text: "理论知识",
+        items: [{
+          text: "JavaScript",
+          link: "/knowledge/javascript"
+        }, {
+          text: "JS事件",
+          link: "/knowledge/jsevent"
+        }, {
+          text: "JS事件循环",
+          link: "/knowledge/eventloop"
+        }, {
+          text: "JS原型链和继承",
+          link: "/knowledge/sourcelink"
+        }, {
+          text: "原型和闭包",
+          link: "/knowledge/callstackenvir"
+        }]
+      }, {
+        text: "思路",
+        items: [{
+          text: "埋点实现",
+          link: "/knowledge/eventloop"
+        }, {
+          text: "动画指令",
+          link: "/knowledge/eventloop"
+        }, {
+          text: "敏感数据加密方案",
+          link: "/knowledge/eventloop"
+        }]
+      }]
     }, {
       text: "链接分享",
       items: [{
-        text: "面试",
+        text: "知识库",
         items: [{
           text: "前端试题库",
           link: "https://www.html5iq.com/index.html"
         }, {
-          text: "空缺",
-          link: "/language/japanese"
+          text: "一只菜鸟工程师",
+          link: "https://www.cnblogs.com/suihang/"
+        }, {
+          text: "前端知识图谱",
+          link: "https://f2e.tech/"
         }]
       }, {
         text: "工具",
         items: [{
-          text: "空缺",
-          link: "/language/chinese"
+          text: "svg转png ",
+          link: "https://svgtopng.com/zh/"
         }, {
-          text: "空缺",
-          link: "/language/japanese"
+          text: "阿里图标库",
+          link: "https://www.iconfont.cn/"
+        }, {
+          text: "兼容自查",
+          link: "https://caniuse.com/"
         }]
       }]
     }],
