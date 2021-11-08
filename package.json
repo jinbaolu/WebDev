@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "start": "vuepress dev docs"
+    "build": "vuepress build docs",
+    "start": "vuepress dev docs",
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
